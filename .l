@@ -9,11 +9,11 @@ background-color: #ebebeb;
 }
 
 .link-sobre {
-  font-family: 'montserrat' ; 
   font-size: 18px;
-  font-weight: 700;
+  font-weight: bold;
   color: #707070;
   text-decoration: none;
   display: block;
   text-align: right;
+  font-family: 'Montserrat', sans-serif;
 }
