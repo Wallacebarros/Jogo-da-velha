@@ -1,20 +1,9 @@
-import Sobre from './styles/objects/sobre'
-import Logo from './styles/objects/Logo'
-import Menu from './styles/objects/Menu';
+import Header from "./components/Header";
 
 function App() {
-  const menuIconStyle = {
-  };
-
-  const beforeAfterStyle = {
-   
-  };
-
   return (
     <>
-      <Logo />
-      <Sobre />
-      <Menu />
+     <Header />
     </>
   );
 }
