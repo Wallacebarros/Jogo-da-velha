@@ -1,0 +1,6 @@
+.sobre {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--color-gray-300);
+}

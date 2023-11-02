@@ -1,13 +1,21 @@
-// import logo from './logo.svg';
-import './App.css';
+import Sobre from './styles/objects/sobre'
+import Logo from './styles/objects/Logo'
+import Menu from './styles/objects/Menu';
 
 function App() {
+  const menuIconStyle = {
+  };
+
+  const beforeAfterStyle = {
+   
+  };
+
   return (
-    <div>
-      <header>
-        <a href=' ' className="link-sobre">sobre</a>
-      </header>
-    </div>
+    <>
+      <Logo />
+      <Sobre />
+      <Menu />
+    </>
   );
 }
 

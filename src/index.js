@@ -1,16 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './styles/settings/colors.css'
+import './styles/settings/colors.css';
 import './styles/generic/reset.css';
 import './styles/elements/base.css';
 //import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+//import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-reportWebVitals();
+root.render( <App /> );
+//reportWebVitals();
