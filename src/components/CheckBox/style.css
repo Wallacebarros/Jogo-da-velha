@@ -1,0 +1,25 @@
+.input {
+  display: none;
+}
+
+.input:checked + .label::before {
+  background-clip: content-box;
+  padding: 2px;
+  background-color: var(--color-gray-300);
+}
+
+.label {
+  display: inline-flex;
+  align-items: center; 
+}
+
+.label::before {
+  content: '';
+  box-sizing: border-box;
+  display: inline-block;
+  border: 3px solid var(--color-gray-300);
+  border-radius: 5px;
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}

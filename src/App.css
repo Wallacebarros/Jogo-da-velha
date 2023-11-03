@@ -3,3 +3,8 @@
   width: 90vw;
   height: 90vw;
 }
+
+.app > .label {
+  margin-left: calc(50vw - 71px);
+  margin-top: 50px;
+}
