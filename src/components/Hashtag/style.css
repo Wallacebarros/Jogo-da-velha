@@ -1,0 +1,25 @@
+ul, li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.card {
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.hashtag {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 3px;
+  background-color: gray;
+  height: 100%;
+}
+
+.hashtag > .item {
+  background-color: var(--color-white-primary);
+  display: flex;
+  justify-content: center;
+}
